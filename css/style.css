@@ -79,6 +79,59 @@ main{
 
 }
 
+#reservaTurno{
+    height: 180px;
+    background-color: black;
+    padding: 1px 0px;
+}
+
+#boxturno{
+    height: 160px;
+    margin: 10px;
+    display: flex;
+}
+
+#boxTurnoTexto{
+    width: 70%;
+    color:  #8c6d20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 120px;
+}
+
+#boxTurnoTexto h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+#marginIconoReserva{
+    margin-right: 10px;
+}
+
+#detalleColorReserva{
+    color: white;
+}
+
+#boxTurnoBoton{
+
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#boxTurnoBoton button{
+
+    width: 50%;
+    padding: 10px 0px;
+    background-color: #8c6d20;
+    font-size: 19px;
+    border-radius: 10px;
+}
+
 
 footer{
     background-color: #6f5401;
@@ -115,7 +168,7 @@ footer{
     }
 
     #contenedorimg{
-        height: auto;
+        height: 400px;
         width: 100%;
     }
     
@@ -131,5 +184,41 @@ footer{
 
     }
 
+    #reservaTurno{
+        height: auto;
+    }
     
+    #boxturno{
+
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+
+    #boxTurnoTexto{
+        margin: 0;
+        width: 100%;
+    }
+    #boxTurnoTexto h2{
+        margin:0;
+        font-size: 20px;
+    }
+    #boxTurnoTexto p{
+        font-size: 13px;
+    }
+    #boxTurnoBoton{
+        width: 100%;
+    }
+    #boxTurnoBoton button{
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and  (max-width: 821px){
+
+    #boxTurnoTexto{
+        margin: 0;
+    }
+
 }
