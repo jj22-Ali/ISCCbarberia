@@ -291,7 +291,7 @@ main{
 #contenedorImgNosotros{
 
     width: 35%;
-    margin: 10px 0px;
+    margin: 30px 0px;
     margin-right: 15px;
 }
 
@@ -304,7 +304,7 @@ main{
 #contenedorInfNosotros{
 
     width: 35%;
-    margin: 10px 0px;
+    margin: 30px 0px;
     margin-left: 15px;
     color: white;
 
@@ -328,6 +328,138 @@ main{
     width: 40%;
     font-size: 18px;
 }
+
+.preciosProductos{
+
+    height: 500px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#tituloPrecio{
+    height: 10%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+#contenidoPrecios{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#precioBarba{
+
+    border: 1px black solid;
+    border-radius: 8px;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#imagenPrecioBarba{
+
+    height: 70%;
+}
+
+#imagenPrecioBarba img{
+
+    width: 100%;
+    height: 100%;
+    object-fit:cover ;
+
+}
+
+#descripcionPrecioBarba{
+
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+
+#precioPelo{
+
+    border: 1px black solid;
+    border-radius: 8px;
+    width: 23%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#imagenPrecioPelo{
+
+    height: 70%;
+
+}
+
+#imagenPrecioPelo img{
+
+    width: 100%;
+    height: 100%;
+    object-fit:cover ;
+
+}
+
+#descripcionPrecioPelo{
+
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+#precioCompleto{
+
+    border: 1px black solid;
+    border-radius: 8px;
+    width: 23%;     
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+
+#imagenPrecioCompleto{
+
+    height: 70%;
+
+}
+
+#imagenPrecioCompleto img{
+
+    width: 100%;
+    height: 100%;
+    object-fit:cover ;
+
+}
+
+#descripcionPrecioCompleto{
+
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+
 
 footer{
     background-color: #6f5401;
@@ -522,6 +654,19 @@ footer{
         font-size: 18px;
     }
 
+    .preciosProductos{
+        height: auto;
+        margin: 20px;
+    }
+
+    #contenidoPrecios{
+        flex-direction: column;
+    }
+
+    #precioBarba, #precioPelo, #precioCompleto{
+        width: 100% ;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px){
@@ -584,6 +729,10 @@ footer{
         width: 70%;
         font-size: 13px;
      
+    }
+
+    .nosotrosBarberia{
+        height: auto;
     }
 
     #contenedorInfNosotros p{
