@@ -120,6 +120,8 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: none;
+
 
 }
 
@@ -130,6 +132,7 @@ main{
     background-color: #8c6d20;
     font-size: 19px;
     border-radius: 10px;
+
 }
 
 .serviciosBarberia{
@@ -164,6 +167,8 @@ main{
     border-radius: 5px;
     background-color: white;
     width: 25%;
+    border: none;
+
 }
 
 #botonServicio{
@@ -337,7 +342,7 @@ footer{
     header nav{
 
         margin-top: 15px;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .contenedorBanner{
@@ -471,6 +476,7 @@ footer{
     }
 
      #servicioCompleto{
+        margin-top: 10px;
         flex-direction:column;
     }
 
