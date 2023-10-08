@@ -272,6 +272,57 @@ main{
     justify-content: center;
 }
 
+.nosotrosBarberia{
+
+    margin: 10px 0px;
+    border: 1px black solid;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+
+#contenedorImgNosotros{
+
+    width: 35%;
+    margin: 10px 0px;
+    margin-right: 15px;
+}
+
+#contenedorImgNosotros img{
+
+    width: 100%;
+    height: 100%;
+}
+
+#contenedorInfNosotros{
+
+    width: 35%;
+    margin: 10px 0px;
+    margin-left: 15px;
+    color: white;
+
+}
+
+#contenedorInfNosotros h2{
+
+    color: #8c6d20;
+
+}
+
+#contenedorInfNosotros button{
+    background-color: #8c6d20;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+}
+
+#botonNosotros {
+    
+    width: 40%;
+    font-size: 18px;
+}
 
 footer{
     background-color: #6f5401;
@@ -433,6 +484,37 @@ footer{
 
     }
 
+    .nosotrosBarberia{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        margin: 0;
+    }
+
+    #contenedorImgNosotros{
+
+        width: 60%;
+        margin: 10px 0px;
+        margin-right: 15px;
+    }
+
+    #contenedorInfNosotros{
+
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+    }
+    
+    #contenedorInfNosotros button{
+        padding: 10px 20px;
+        margin: 20px 0px;
+    }
+    
+    #botonNosotros {
+        
+        width: 100%;
+        font-size: 18px;
+    }
 
 }
 
@@ -498,6 +580,22 @@ footer{
      
     }
 
+    #contenedorInfNosotros p{
+
+        font-size: 15px;
+
+    }
+
+    #contenedorInfNosotros button{
+        padding: 10px 20px;
+        margin: 10px 0px;
+    }
+    
+    #botonNosotros {
+        
+        width: 100%;
+        font-size: 15px;
+    }
 
 
 
