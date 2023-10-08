@@ -132,6 +132,146 @@ main{
     border-radius: 10px;
 }
 
+.serviciosBarberia{
+    height: 400px;
+    margin: 50px 100px;
+    display: flex;
+}
+
+#servicioDescripcion1{
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#servicioDescripcion1 h2{
+
+    font-size: 30px;
+
+}
+#servicioDescripcion1 p{
+
+    font-size: 20px;
+
+}
+
+#servicioDescripcion1 button{
+    padding: 10px 0px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    background-color: white;
+    width: 25%;
+}
+
+#botonServicio{
+
+    color: black;
+    font-size: 19px;
+
+}
+
+#subrayado{
+    margin: 30px 0px;
+    background-color: white;
+    width: 15%;
+}
+
+#servicioDescripcion2{
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#servicioCorte{
+    width: 100%; 
+    height: 25%;   
+    display: flex; 
+}
+
+#boxIconoCorte{
+    width: 20%;
+    height: 100%; 
+    display: flex;
+    justify-content: center; 
+}
+
+#boxIconoCorte img{
+    border-radius: 50%;
+}
+
+#boxDescripcionCorte{
+
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#servicioBarba{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center; 
+}
+
+
+#boxIconoBarba{
+    width: 20%;
+    height: 100%; 
+    display: flex;
+    justify-content: center; 
+}
+
+#boxIconoBarba img{
+    border-radius: 50%;
+}
+
+#boxDescripcionBarba{
+
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#servicioCompleto{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center; 
+}
+
+
+#boxIconoCompleto{
+    width: 20%;
+    height: 100%; 
+    display: flex;
+    justify-content: center; 
+}
+
+#boxIconoCompleto img{
+    border-radius: 50%;
+}
+
+#boxDescripcionCompleto{
+
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 footer{
     background-color: #6f5401;
@@ -212,13 +352,153 @@ footer{
     #boxTurnoBoton button{
         font-size: 15px;
     }
+
+    #servicioDescripcion1{
+        align-items: center;
+    }
+    #servicioDescripcion1 h2{
+
+        font-size: 25px;
     
+    }
+    #servicioDescripcion1 p{
+        font-size: 15px;
+    }
+    #servicioDescripcion1 button{
+        padding: 5px 0px;
+        margin: 20px 0px;
+        border-radius: 5px;
+        background-color: white;
+        width: 50%;
+    }
+    
+    #subrayado{
+        width: 100%;
+    }
+
+    .serviciosBarberia{
+        height: auto;
+        flex-direction: column;
+        margin: 50px 30px;
+    }
+    #servicioDescripcion1{
+
+        width: 100%;
+    
+    }
+    #servicioDescripcion2{
+
+        width: 100%;
+
+    }
+    #servicioCorte{
+        flex-direction:column;
+    }
+    #boxIconoCorte{
+        width: 100%;
+    }
+    
+    #boxDescripcionCorte{
+    
+        width: 100%;
+        align-items: center;        
+     
+    }
+
+    #servicioBarba{
+        flex-direction:column;
+    }
+
+    #boxIconoBarba{
+        width: 100%;
+    }
+    #boxDescripcionBarba{
+
+        width: 100%;
+        align-items: center;        
+
+    }
+
+     #servicioCompleto{
+        flex-direction:column;
+    }
+
+    #boxIconoCompleto{
+        width: 100%;
+    }
+    #boxDescripcionCompleto{
+        
+        width: 100%;
+        align-items: center;        
+
+    }
+
+
 }
 
-@media screen and  (max-width: 821px){
+@media screen and (min-width: 768px) and (max-width: 991px){
 
     #boxTurnoTexto{
         margin: 0;
     }
+
+    #servicioDescripcion1{
+        align-items: center;
+    }
+    #servicioDescripcion1 h2{
+
+        font-size: 25px;
+    
+    }
+    #servicioDescripcion1 p{
+        font-size: 15px;
+    }
+    #servicioDescripcion1 button{
+        padding: 5px 0px;
+        margin: 20px 0px;
+        border-radius: 5px;
+        background-color: white;
+        width: 50%;
+    }
+    
+    #subrayado{
+        width: 100%;
+    }
+
+    #boxIconoCorte{
+        width: 30%;
+    }
+    
+    #boxDescripcionCorte{
+        
+        width: 70%;
+        font-size: 13px;
+     
+    }
+
+    #boxIconoBarba{
+        width: 30%;
+    }
+    
+    #boxDescripcionBarba{
+        
+        width: 70%;
+        font-size: 13px;
+     
+    }
+
+    #boxIconoCompleto{
+        width: 30%;
+    }
+    
+    #boxDescripcionCompleto{
+        
+        width: 70%;
+        font-size: 13px;
+     
+    }
+
+
+
 
 }
