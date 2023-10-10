@@ -534,12 +534,23 @@ footer{
     border: 1px red solid;
     display: flex;
     justify-content: space-evenly;
-    height: 200px;
+    height: 150px;
 }
 
 #footerInf{
     width: 30%;
     border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footerInf h2{
+    margin: 10px 0px;
+}
+
+#footerInf li{
+    margin: 10px 0px;
 }
 
 #footerInf ul{
@@ -551,17 +562,50 @@ footer{
 
     width: 30%;
     border: 1px black solid;
-
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+#footerAtencion h2{
+    margin: 10px 0px;
+}
+
+table, th, td{
+    border: 1px black solid;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+
 
 #footerRedes{
 
     width: 30%;
     border: 1px black solid;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
+
+#footerRedes h2{
+
+    margin: 10px 0px;
+
+}
+
+#footerRedes ul{
+    list-style: none;
+    display: flex;
+}
+
+#footerRedes li{
+    font-size: 20px;
+    margin: 0px 10px;
+}
+
+
 
 @media screen and (max-width: 576px) {
     header{
